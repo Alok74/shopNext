@@ -25,8 +25,8 @@ const Header = () => {
   return (
     <>
     
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top full-nav">
+        <div className="container-fluid fullnav">
           <button
             className="navbar-toggler nav-btn"
             type="button"
@@ -38,7 +38,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div className="collapse navbar-collapse home" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
               🛒  SHOP Next 
             </Link>

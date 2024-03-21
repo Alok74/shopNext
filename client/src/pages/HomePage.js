@@ -107,18 +107,27 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"ALl Products - Best offers "}>
-      {/* banner image */}
+    <Layout title={"Shop Next - Best offers "}>
+     <div className="img-bg"   >
+      <div className="banner-container">
       <img
         src="/images/banner.png"
         className="banner-img"
         alt="bannerimage"
-        width={"100%"}
+        width= "25%"
       />
+      <img src="/images/shop4.png" className="shop4-img" alt="shop4" width="25%"/>
+      <img src="/images/shop2.png" className="shop4-img" alt="shop4" width="25%"/>
+      <img src="/images/shop3.png" className="shop4-img" alt="shop4" width="25%"/>
+
+
+
+      </div>
+      </div>
       {/* banner image */}
-      <div className="container-fluid row mt-3 home-page  ">
+      <div className="container-fluid row mt-3 home-page   ">
         <div className="col-md-3 filters">
-          <h4 className="text-center">Filter By Category</h4>
+          <h4 className="text-center filter-category">Filter By Category</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
               <Checkbox
